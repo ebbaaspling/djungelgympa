@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-93073Q60NM"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+
+ gtag('config', 'G-93073Q60NM');
+</script>
+
+
+<meta charset="UTF-8">
+<meta name="description" content="Barngympnastik med djungeltema">
+<meta name="keywords" content="barngympa,barngymnastik,barnsport,gympa,barnaktivitet,idrott">
+<meta name="author" content="Ebba Aspling">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <title>Djungelgympa</title>
+   <link rel="stylesheet" href="css/djungelgympa.css"> <!-- Länka din CSS-fil -->
+</head>
+<body onload="buildMenu()">
+    <div class="wrapper">   
+    <header>
+       <div class="header-container">
+           <img src="images/djungelgympalogo4.png" class="header-image"> <!-- Rubrik -->
+           </div>
+   </header>
+
+   <nav>
+    <ul id="meny">
+     
+    </ul>
+</nav>
+
+<br>
+    <br>
+
+  <h2>Var med på Djungelgympa-Äventyret!</h2>
+
+  <div class="textruta">
+
+   
+    <p>Vi är redo att välkomna nya upptäcktsresande i vårt Djungelgympa-gäng! Låt oss skapa minnen tillsammans och ge ditt barn chansen att växa och utvecklas i en rolig och trygg miljö.
+
+    Fyll i formuläret nedan och låt äventyret börja!</p>
+</div>
+
+<div class="customer-image-container">
+    <img src="images/djungelapan.png" class="customer-image-small"alt="tecknad apa">
+  </div>
+
+   <section id="kontakt" class="contact-section">
+   <h3>Intresseanmälan</h3>
+   <form action="processa_formulär.php" method="post" class="contact-form">
+       <div class="form-group">
+           <label for="namn">Namn:</label>
+           <input type="text" id="namn" name="namn" required>
+       </div>
+
+
+       <div class="form-group">
+           <label for="personnummer">Personnummer (XXXXXX-XXXX):</label>
+           <input type="personnummer" id="personnummer" name="personnummer" required>
+       </div>
+
+
+       <div class="form-group">
+           <label for="email">E-post:</label>
+           <input type="text" id="email" name="email" required>
+       </div>
+
+       <div class="form-group">
+        <label for="stad">Stad:</label>
+        <input type="text" id="stad" name="stad" required>
+    </div>
+
+       <div class="form-group">
+           <label for="info">Övrig info eller frågor:</label>
+           <textarea id="info" name="info" rows="4" required></textarea>
+       </div>
+
+
+       <div class="form-group">
+           <button type="submit" class="submit-button">Skicka</button>
+       </div>
+</form>
+</section>
+
+<br>
+
+
+       <footer class="footer">
+        <p>&copy; 2023 Djungelgympa Sverige.  All rights reserved</p>
+    </footer>
+
+       <script src="script/script.js"></script>
+      
+    </body>
+    </html>
+    

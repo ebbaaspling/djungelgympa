@@ -1,0 +1,360 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    ;
+
+ }
+ 
+ 
+ /* Grundstil för hela sidan */
+ body {
+    background-color: #FFFFFF; /* Beige bakgrundsfärg */
+    color: #000000; /* Textfärg */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Typsnitt (kan ändras efter behov) */
+}
+ 
+ 
+ /* Stil för sidhuvudet */
+ header {
+    background-color: #D1F1D7; /* Mörkare grön bakgrundsfärg för sidhuvudet */
+    color: #fff; /* Textfärg för sidhuvudet */
+    padding: 0px;
+ }
+ 
+ header img {
+    width: 50%;
+    height: auto; /* För att behålla bildens proportioner */
+    display: block; /* Ta bort eventuell extra mellanrum under bilden */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+  }
+
+
+ .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+ }
+ 
+ .footer {
+    background-color: #D1F1D7; /* Lägg till den önskade bakgrundsfärgen */
+    color: #000000; /* Justera textfärgen för bättre kontrast */
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+
+ /* Stil för logotypen i sidhuvudet */
+ h1 {
+    font-size: 36px;
+ }
+ 
+ 
+ /* Stil för navigationsmenyn */
+ nav ul {
+    display: flex;
+ }
+ 
+ 
+ nav ul li {
+    margin: 0 20px; /* Avstånd mellan menylänkarna */
+ }
+ 
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+ }
+ 
+ 
+ /* Innehållsområde för din webbsida */
+ .container {
+    padding: 10px;
+ }
+ 
+ 
+ /* Exempel på en sektion med en bakgrundsfärg */
+ #start {
+    background-color: #FFFFFF; /* Beige bakgrundsfärg för startsidan */
+    padding: 60px;
+ }
+ 
+ 
+ /* Upprepa ovanstående mönster för andra sektioner (t.ex., #about, #clients, #kontakt) */
+ 
+ 
+ /* Stilar för kontaktformulär */
+ .contact-section {
+    background-color: #D1F1D7; /* Beige bakgrundsfärg för kontaktsektionen */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 500px;
+ }
+ 
+ 
+ .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+ }
+ 
+ 
+ .form-group {
+    margin: 0px 0;
+ }
+ 
+ 
+ label {
+    display: block;
+ }
+ 
+ 
+ input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2F6D30; /* Använd den gröna färgen för ramen */
+    border-radius: 5px;
+    font-size: 16px;
+ }
+ 
+ 
+ .submit-button {
+    background-color: #2F6D30; /* Mörkare grön färg för submit-knappen */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ 
+ .submit-button:hover {
+    background-color: #000000; /* Mörkaste gröna färg vid hover */
+ }
+ 
+ 
+ /* Stilar för kontaktuppgifter */
+ .contact-details {
+    background-color: #FFFFFF; /* Beige bakgrundsfärg för kontaktuppgifterna */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ 
+ 
+ .contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ 
+ 
+ .contact-details p {
+    margin: 5px 0;
+ }
+ 
+ 
+ /* Stilar för att ändra bilden */
+ .right-image {
+    float: right; /* Placera bilden till höger */
+    max-width: 25%; /* Begränsa bildens bredd */
+    margin-right: 40px;/* Justera marginerna för att skapa utrymme runt bilden */
+ }
+ 
+ 
+ /* Stilar för kundomdömen */
+ .review-section {
+    background-color: #FFFFFF; /* Beige bakgrundsfärg för kundomdömen */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+    max-width: 500px;
+ }
+ 
+ 
+ .review {
+    background-color: #fff; /* Bakgrundsfärg för varje kundomdöme */
+    border: 1px solid #2F6D30; /* Använd den gröna färgen för ramen */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+ }
+ .image-container {
+    display: flex;
+    flex-direction: row; /* Placera element horisontellt */
+    justify-content: center; /* Centrera element längs huvudaxeln (horisontellt) */
+    align-items: center; /* Centrera element längs tväraxeln (vertikalt) */
+    text-align: center; /* Centrera texten horisontellt */
+ }
+ 
+ .image-container img {
+    width: 800px; /* Ange den önskade bredden för bilderna */
+    height: auto; /* Behåll bildens proportioner */
+    margin-right: 10px; /* Justera högermarginalen mellan bilderna efter behov */
+  }
+ 
+ .customer-image {
+    width: 800px; /* Ange en fast bredd för bilderna */
+    height: auto; /* Ange en fast höjd för bilderna */
+    margin-left: 50px; /* Lägg till marginal både till höger och vänster för att separera bilderna */
+    border: 1px solid #ccc; /* Lägg till en tunn ram runt bilderna (kan anpassas efter behov) */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Lägg till en skugga för en elegant touch */
+ }
+ 
+ 
+ /* Övriga stilar som du har definierat */
+ 
+ 
+ .image-container {
+    display: flex;
+    flex-wrap: wrap; /* Låt bilderna flöda ner på flera rader om de inte får plats i bredd */
+    justify-content: center; /* Centrera element längs huvudaxeln (horisontellt) */
+    align-items: center; /* Centrera element längs tväraxeln (vertikalt) */
+    margin: 20px 0;
+ }
+ 
+ 
+ .image-container img {
+    width: 70%; /* Sätt den gemensamma bredden för bilderna */
+    max-height: 70%; /* Begränsa höjden för bilderna så att de inte blir för långa */
+    margin: 10px; /* Lägg till marginal mellan bilderna */
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+ 
+
+ /* Ny CSS för mindre bilder */
+ .customer-image-container {
+    display: flex;
+    justify-content: center; /* Centrera horisontellt */
+    align-items: center; /* Centrera vertikalt */
+ }
+ 
+ 
+ .customer-image-small {
+    width: 30%; /* Använd maximal tillgänglig bredd */
+    max-height: 30%; /* Använd maximal tillgänglig höjd */
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+
+
+ .customer-image-large {
+   width: 100%; /* Använd maximal tillgänglig bredd */
+   max-height: 100%; /* Använd maximal tillgänglig höjd */
+   margin: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+ 
+.image-and-text {
+   display: flex;
+   align-items: center;
+   max-width: 70%; /* Anpassa bredden efter ditt behov */
+ }
+ 
+ .image-and-text img {
+   max-width: auto; /* Säkerställ att bilden inte överskrider sin naturliga storlek */
+   max-height: 230px; /* Behåll bildens proportioner */
+   margin-right: 10px; /* Justera högermarginalen mellan bild och text efter behov */
+ }
+ 
+ .image-and-text p {
+   color: #333;
+   font-size: 16px;
+   line-height: 1.5;
+ }
+
+ .textruta {
+ 
+max-width: 1000px;
+font-size: 10;
+
+ 
+ }
+ 
+ 
+ /* Centrera texten i mitten */
+ h3 {
+    text-align: center;
+ }
+ 
+ 
+ h2 {
+   margin:10px;
+   padding:0px;
+   padding-left:20px;
+   text-align: center;
+   font-size: 25px;
+ 
+ 
+ }
+ 
+ 
+ h4 {
+    margin:0px;
+    padding:0px;
+    padding-left:10px
+
+ }
+ 
+ 
+ p {
+    margin:5px;
+    padding:5px;
+  
+ }
+ 
+ 
+ x{border:solid 1px red
+ 
+ 
+ }
+
+ 
+ .logo{
+    width: 300px;
+    margin:0px;
+    padding-left: 50px;
+ }
+ 
+ 
+ #meny li:hover {
+    transition: box-shadow 0.3s, border-bottom 0.3s; /* Övergångseffekt för skuggan och linjen */
+ }
+ 
+ 
+ #meny li a {
+    text-decoration: none; /* Ta bort standard understrykning från länkar */
+    font-size: 14px; /* Normal textstorlek */
+    color: #2F6D30; /* Standardtextfärg */
+ }
+ 
+ 
+ #meny li a:hover {
+    font-size: 14px; /* Ändra textens storlek när man hovrar över */
+    color: #2F6D30; /* Ändra textfärgen när man hovrar över */
+    transition: font-size 0.3s, color 0.3s; /* Övergångseffekt för textstorlek och färg */
+ }
+ 
